@@ -28,22 +28,23 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/logo" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="8dp"
-                android:text="The biggest and the most magnificent technical and cultural fest of the Himalayas, a complete feast for its participants and sponsors alike, Exodia, is back with its 8th edition, to thrill the youth with its invigorating cultural extravaganza and brain-storming technical fiesta. The previous seven editions of this 3 day long euphoria, organized by the students of the esteemed Indian Institute of Technology, Mandi, also fondly known as the ‘IIT of Himalayas’, have been larger than life."
-                android:textAlignment="center"
-                android:autoSizeTextType="uniform"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="15dp"
+            android:autoSizeTextType="uniform"
+            android:text="The biggest and the most magnificent technical and cultural fest of the Himalayas, a complete feast for its participants and sponsors alike, Exodia, is back with its 8th edition, to thrill the youth with its invigorating cultural extravaganza and brain-storming technical fiesta. The previous seven editions of this 3 day long euphoria, organized by the students of the esteemed Indian Institute of Technology, Mandi, also fondly known as the ‘IIT of Himalayas’, have been larger than life."
+            android:textAlignment="center"
+            android:textColor="#2C3335"
+            android:textSize="18sp" />
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="15dp"
             android:src="@drawable/bar"
             android:scaleType="fitXY"/>
 
@@ -59,11 +60,44 @@
         <!--</Space>-->
 
         <LinearLayout
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:orientation="horizontal">
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="regis">
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_playlist_add_black_24dp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="#8B78E6"
+                android:text="Registration" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="contact">
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -82,13 +116,44 @@
                 android:text="Contact Us" />
         </LinearLayout>
 
+        <LinearLayout
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="map">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_map_black_24dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="#b71c1c"
+                android:text="Campus Map" />
+        </LinearLayout>
 
         <LinearLayout
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:orientation="horizontal">
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="reach">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -109,11 +174,15 @@
 
 
         <LinearLayout
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:orientation="horizontal">
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="folder">
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -132,5 +201,7 @@
                 android:text="Documents" />
 
         </LinearLayout>
+
+
     </LinearLayout>
 </ScrollView>

@@ -6,6 +6,7 @@
         android:layout_width="match_parent" android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="0dp"
+        android:background="#FFFFFF"
         android:fillViewport="false">
 
 
@@ -15,7 +16,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:paddingTop="25dp"
                 android:paddingLeft="15dp"
@@ -49,7 +50,8 @@
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/dance" />
+                app:srcCompat="@drawable/dance"
+                android:onClick="dance"/>
 
             <ImageButton
                 android:id="@+id/imageButton3"
@@ -57,7 +59,8 @@
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/dramatics" />
+                app:srcCompat="@drawable/dramatics"
+                android:onClick="drama"/>
 
             <ImageButton
                 android:id="@+id/imageButton4"
@@ -65,7 +68,8 @@
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/artsanddesignfashion" />
+                app:srcCompat="@drawable/artsanddesignfashion"
+                android:onClick="artfashion"/>
 
             <ImageButton
                 android:id="@+id/imageButton12"
@@ -73,7 +77,8 @@
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/photography" />
+                app:srcCompat="@drawable/photography"
+                android:onClick="photo"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -92,35 +97,40 @@
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/programmerparadigms" />
+                app:srcCompat="@drawable/programmerparadigms"
+                android:onClick="program"/>
             <ImageButton
                 android:id="@+id/imageButton6"
                 android:layout_width="wrap_content"
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/recklessrobotronics" />
+                app:srcCompat="@drawable/recklessrobotronics"
+                android:onClick="robo"/>
             <ImageButton
                 android:id="@+id/imageButton7"
                 android:layout_width="wrap_content"
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/mechanicalmaniacs" />
+                app:srcCompat="@drawable/mechanicalmaniacs"
+                android:onClick="mech"/>
             <ImageButton
                 android:id="@+id/imageButton8"
                 android:layout_width="wrap_content"
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/builderbliss" />
+                app:srcCompat="@drawable/builderbliss"
+                android:onClick="builder"/>
             <ImageButton
                 android:id="@+id/imageButton9"
                 android:layout_width="wrap_content"
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/enimaticentepreneurs" />
+                app:srcCompat="@drawable/enimaticentepreneurs"
+                android:onClick="entepre"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -139,14 +149,36 @@
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/artanddesign" />
+                app:srcCompat="@drawable/artanddesign"
+                android:onClick="onlineart"/>
             <ImageButton
                 android:id="@+id/imageButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:background="?attr/selectableItemBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/photograhyvideography"
+                android:onClick="onlinephoto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:paddingBottom="15dp"
+                android:text="Pronites"
+                android:textColor="#333945"
+                android:paddingTop="25dp"
+                android:paddingLeft="15dp"
+                android:layout_gravity="left"
+                android:textSize="30dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton12"
                 android:layout_width="wrap_content"
                 android:layout_height="170dp"
                 android:background="?attr/selectableItemBackground"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/photograhyvideography" />
+                app:srcCompat="@drawable/photograhyvideography"
+                android:onClick="pronite"/>
 
         </LinearLayout>
 

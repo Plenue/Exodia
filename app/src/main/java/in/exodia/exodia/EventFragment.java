@@ -18,12 +18,4 @@ public class EventFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_event,container,false);
     }
 
-    public void music(View v){
-
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("http://www.google.com"));
-        startActivity(intent);
-    }
 }

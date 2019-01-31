@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="#FFFFFF"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:paddingTop="25dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="30sp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="8dp"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/baseline_arrow_back_ios_black_18dp"
+                android:scaleType="fitEnd"
+                android:onClick="backact"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#2C3335"
+                android:text="Cultural Events"
+                android:textSize="40dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#333945"
+            android:text="Photgraphy"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="left"
+            android:textSize="30dp"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/landscape" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#333945"
+            android:text="Landscape Photography"
+            android:paddingLeft="10dp"
+            android:layout_gravity="left"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Photography has been preserving moments since forever. Here we encourage participants to capture and send in the most breathtaking and scenic still life moments and help us make the world admire your skills."
+            android:textAlignment="textStart"
+            android:textColor="#333945"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_location" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:text="A1-NKN" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_call_"
+                android:onClick="call1"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:text="Coordinator"
+                android:onClick="call1"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_access_time" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:text="12:00 PM" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/barhor"
+            android:scaleType="fitXY"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <ImageView
+            android:id="@+id/image100"
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/portrait" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#333945"
+            android:text="Portrait Photography"
+            android:paddingLeft="10dp"
+            android:layout_gravity="left"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Like nature, people too captivate and enthrail us. So captivate one such person or more in your camera and let everyone admire their sharp personality and your effective lighting, backdrops, and poses."
+            android:textColor="#333945"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_location" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:text="A1-NKN" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_call_"
+                android:onClick="call2"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:text="Coordinator"
+                android:onClick="call2"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_access_time" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:text="12:00 PM" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/barhor"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+</ScrollView>
